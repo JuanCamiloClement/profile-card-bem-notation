@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-container {
+    width: 80%;
+    max-width: 600px;
+    min-width: 320px;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 5px;
+    border-color: blueviolet;
+}
+
+.card-container__hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container__profile-pic {
+    background-position: center;
+    background-image: url(profile-pic.jpg);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 3px;
+    border-color: blueviolet;
+    margin-bottom: 15px;
+}
+
+.card-container__name {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.card-container__stars {
+    margin-bottom: 15px;
+}
+
+.card-text {
+    margin-bottom: 15px;
+}
+
+.card-text__p {
+    text-align: justify;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.btn {
+    all: unset;
+    height: 40px;
+    width: 110px;
+    color:blueviolet;
+    border: solid 2px;
+    border-color: blueviolet;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.buttons--color {
+    color: white;
+    background-color: blueviolet;
+}
+
+.checked {
+    color: blueviolet;
+}
